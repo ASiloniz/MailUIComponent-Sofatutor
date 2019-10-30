@@ -1,0 +1,38 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+    height: 100%;
+}
+
+.email-item-not-read, .email-item-read{
+    cursor:pointer;
+}
+
+button p{
+    margin: 0;
+}
+.email-item-read{
+    font-weight:normal;
+    background: rgba(242,245,245,0.8);
+}
+
+.email-item-not-read{
+    font-weight:bold;
+    border-left: 4px solid #94c802;
+}
+
+.email-item-not-read .green-highlight{
+    font-weight:bold;
+    color: #94c802;
+}
+
+.email-item-not-read:hover, .email-item-read:hover {
+    -webkit-box-shadow: 0px 0px 8px -1px rgba(166,166,166,1);
+    -moz-box-shadow: 0px 0px 8px -1px rgba(166,166,166,1);
+    box-shadow: 0px 0px 8px -1px rgba(166,166,166,1);
+}
+
